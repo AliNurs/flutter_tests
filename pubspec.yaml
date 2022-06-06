@@ -93,9 +93,10 @@ flutter:
        - asset: assets/fonts/KG_impact.ttf
          weight: 700
 
+# Не могу добавить Фото
+
   #   - assets/images/
   # image:
-  #     image:
-  #      - asset: assets/images/myCar.jpg
+  #    - asset: assets/images/myCar.jpg
 
 
