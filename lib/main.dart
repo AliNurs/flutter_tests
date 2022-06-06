@@ -21,22 +21,25 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         // ignore: prefer_const_constructors
-        body: Center(
-            child: Image(
-          image:
-              NetworkImage('https://www.syl.ru/misc/i/ai/364823/2188222.jpg'),
-        )
+        body: Container(
+          child: Text("Nursultan"),
+          color: Colors.amber,
+          margin: EdgeInsets.all(20.5),
+          padding: EdgeInsets.all(15.0),
+        ),
 
-            ///ElevatedButton.icon(onPressed: () {},icon: Icon(Icons.ads_click),label: Text("Click"))
-            // RaisedButton.icon(onPressed: () {},icon: Icon(Icons.read_more),label: Text("Read"))
-            // RaisedButton( onPressed: () {}, child: Text('Нажми брат'), color: Colors.deepOrange),
+        //Image(image:
+        //NetworkImage('https://www.syl.ru/misc/i/ai/364823/2188222.jpg',),
+        ///ElevatedButton.icon(onPressed: () {},icon: Icon(Icons.ads_click),label: Text("Click"))
+        // RaisedButton.icon(onPressed: () {},icon: Icon(Icons.read_more),label: Text("Read"))
+        // RaisedButton( onPressed: () {}, child: Text('Нажми брат'), color: Colors.deepOrange),
 
-            /*child: Icon(
+        /*child: Icon(
           Icons.settings,
           size: 45,
           color: Colors.black87,
         )*/
-            ),
+        //  ),
 
         /*  Text(
           "My name is Nurs",
